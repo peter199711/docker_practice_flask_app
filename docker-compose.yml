@@ -27,7 +27,7 @@ services:
       - "5000:5000"
     environment:
       DB_HOST: db
-      DB_USER: root
+      DB_USER: user
       DB_PASS: P@ssw0rd
       DB_NAME: my_titanic
     # 移除整個 .:/app 的 volume，避免覆蓋
